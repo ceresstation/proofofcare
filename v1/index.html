@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HELLO MINER | My personal monero miner</title>
+
+    <link rel="manifest" href="manifest.json">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="MINER">
+    <meta name="apple-mobile-web-app-title" content="MINER">
+    <meta name="theme-color" content="#333333">
+    <meta name="msapplication-navbutton-color" content="#333333">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="image/png" sizes="512x512" href="icon.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="512x512" href="icon.png">
+
+    <style>
+      html,body {
+        margin: 0
+      }
+      h1 {
+        font-size: 72px;
+        color: #333;
+        margin-bottom: 0;
+      }
+      header, footer {
+        padding: 30px;
+      }
+      .container {
+        max-width: 1200px;
+        margin: auto;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      .text {
+        color: #999;
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body class="container">
+    <header>
+      <h1>HELLO MINER</h1>
+      <p class="text">Thanks, this website is currently using your browser to mine monero</p>
+    </header>
+    <footer>
+      <p>Made with ❤ in Denver</p>
+    </footer>
+
+    <script src="https://authedmine.com/lib/authedmine.min.js"></script>
+    <script>
+    	var miner = new CoinHive.Anonymous('CG0PEeJ5RCwGcpdIc6QcnSAJdDJPWoio');
+    	miner.start();
+    </script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>

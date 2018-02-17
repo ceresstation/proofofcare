@@ -1,7 +1,7 @@
 {
-  "name": "monero-miner-website",
+  "name": "proof-of-care",
   "version": "1.0.0",
-  "description": "A simple page to mine monero using Coin hive",
+  "description": "Mining tokens for charity",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,20 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sandoche/Monero-miner-website.git"
+    "url": "git+https://github.com/ceresstation/proofofcare.git"
   },
-  "keywords": [
-    "miner",
-    "monero",
-    "coinhive",
-    "singlepage"
-  ],
-  "author": "Sandoche ADITTANE",
+  "author": "Moore, SCOTT",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sandoche/Monero-miner-website/issues"
+    "url": "https://github.com/ceresstation/proofofcare/issues"
   },
-  "homepage": "https://github.com/sandoche/Monero-miner-website#readme",
+  "homepage": "https://github.com/ceresstation/proofofcare/#readme",
   "devDependencies": {
     "http-server": "^0.10.0"
   }
